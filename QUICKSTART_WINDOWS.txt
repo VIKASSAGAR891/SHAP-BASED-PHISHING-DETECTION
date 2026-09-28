@@ -1,0 +1,23 @@
+PHISHING DETECTION USING AI TOOLS — WINDOWS QUICKSTART
+
+1. Open PowerShell in this folder.
+2. Create environment:
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+3. Install:
+   pip install -r requirements.txt
+4. Download dataset:
+   python scripts\download_dataset.py
+   OR manually place PhiUSIIL_Phishing_URL_Dataset.csv inside data\
+5. For a quick development run:
+   python scripts\run_training.py --sample 30000
+6. For the main run:
+   python scripts\run_training.py
+7. Start dashboard:
+   python app.py
+8. Open http://127.0.0.1:5000
+
+IMPORTANT:
+- The dashboard does not fetch arbitrary websites.
+- Do not claim performance values until training has actually completed.
+- The full dataset is intentionally not bundled in the ZIP.
