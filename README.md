@@ -32,7 +32,6 @@ The dataset uses label `0` for phishing and label `1` for legitimate URLs. The r
 
 ## Architecture
 
-The diagram below is a placeholder. Add the architecture image to the repository root as `architecture.png`.
 
 ![Project architecture](artifacts/architecture.png)
 
